@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Header, Hero, Project, Technologies, Accomplishments, TimeLine, Footer } from './components';
+import { Navbar, Hero, Project, Technologies, Accomplishments, TimeLine, Footer } from './components';
 import './App.css';
 
 
@@ -7,7 +7,6 @@ const App = () => {
   return (
     <div>
         <Navbar />
-        <Header />
         <Hero />
         <Project />
         <Technologies />
@@ -18,4 +17,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;

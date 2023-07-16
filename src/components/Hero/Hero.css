@@ -1,0 +1,126 @@
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.5rem 18rem 0 18rem;
+}
+
+.hero__container-left h1 {
+  color: rgb(226, 231, 236);
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.hero__container-left p {
+  color: rgb(145, 146, 148);
+  margin-bottom: 1.5rem;
+  line-height: 1.4rem;
+  /* font-size: 2rem; */
+}
+
+.hero__container-left a {
+  background: linear-gradient(to left, rgb(28, 191, 231), rgb(185, 11, 190));
+  padding: 0.8rem 3.5rem;
+  border-radius: 2rem;
+  color: aliceblue;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  display: inline-block;
+}
+
+/* media queries */
+@media screen and (max-width: 992px) {
+  .hero__container {
+    padding: 3.5rem 10rem 0 10rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero__container {
+    padding: 3.5rem 8rem 0 8rem;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .hero__container {
+    padding: 3.5rem 3rem 0 3rem;
+  }
+  .hero__container-left h1 {
+    font-size: 1.9rem;
+  }
+  .hero__container-left p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  .hero__container-left a {
+    background: linear-gradient(to left, rgb(28, 191, 231), rgb(185, 11, 190));
+    padding: 0.8rem 2.5rem;
+    border-radius: 2rem;
+    color: aliceblue;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero__container {
+    padding: 3.5rem 2rem 0 2rem;
+  }
+  .hero__container-left h1 {
+    font-size: 1.8rem;
+  }
+  .hero__container-left p {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+
+  .hero__container-left a {
+    background: linear-gradient(to left, rgb(28, 191, 231), rgb(185, 11, 190));
+    padding: 0.8rem 2.5rem;
+    border-radius: 2rem;
+    color: aliceblue;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 360px) {
+.hero__container-left h1 {
+    font-size: 1.7rem;
+  }
+  .hero__container-left p {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+  .hero__container-left a {
+    background: linear-gradient(to left, rgb(28, 191, 231), rgb(185, 11, 190));
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    color: aliceblue;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+.hero__container-left h1 {
+    font-size: 1.5rem;
+    font-size: 1.5rem;
+  }
+  .hero__container-left p {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .hero__container-left a {
+    background: linear-gradient(to left, rgb(28, 191, 231), rgb(185, 11, 190));
+    padding: 0.8rem 1.8rem;
+    border-radius: 2rem;
+    color: aliceblue;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    display: inline-block;
+}
+}

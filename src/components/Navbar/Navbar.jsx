@@ -9,7 +9,7 @@ const Navbar = () => {
   const [ menu, setMenu ] = useState(false);
   return (
     <div className="nav__container">
-         <a href="/" className="logo"><DiCssdeck className="icon"/> Portfolio</a>
+         <a href="#home" className="logo"><DiCssdeck className="icon"/> Portfolio</a>
          <ul className="navbar">
             <li>
                 <a href="#projects">Projects</a>

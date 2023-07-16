@@ -10,14 +10,16 @@
   list-style: none;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  background: rgb(12, 12, 26);
+}
+
 html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  background: rgb(13, 13, 34);
-}
+
 
 
 

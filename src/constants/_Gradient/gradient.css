@@ -1,0 +1,51 @@
+.hero__container-left .gradient {
+  height: 4px;
+  width: 4vw;
+  border-radius: 10px;
+  background: linear-gradient(to left, rgb(28, 191, 231), rgb(185, 11, 190));
+}
+
+@media screen and (max-width: 992px) {
+  .hero__container-left .gradient {
+    height: 4px;
+    width: 10vw;
+    border-radius: 10px;
+    background: linear-gradient(to left, rgb(28, 191, 231), rgb(185, 11, 190));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero__container-left .gradient {
+    height: 4px;
+    width: 10vw;
+    border-radius: 10px;
+    background: linear-gradient(to left, rgb(28, 191, 231), rgb(185, 11, 190));
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .hero__container-left .gradient {
+    height: 4px;
+    width: 11vw;
+    border-radius: 10px;
+    background: linear-gradient(to left, rgb(28, 191, 231), rgb(185, 11, 190));
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero__container-left .gradient {
+    height: 4px;
+    width: 15vw;
+    border-radius: 10px;
+    background: linear-gradient(to left, rgb(28, 191, 231), rgb(185, 11, 190));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero__container-left .gradient {
+    height: 4px;
+    width: 14vw;
+    border-radius: 10px;
+    background: linear-gradient(to left, rgb(28, 191, 231), rgb(185, 11, 190));
+  }
+}
