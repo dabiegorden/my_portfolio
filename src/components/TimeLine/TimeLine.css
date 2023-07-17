@@ -1,0 +1,16 @@
+.timeLine__container {
+  padding: 4rem 18rem;
+}
+
+.timeLine__container-left h1{
+  color: rgb(213, 215, 216);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.timeLine__container-left p {
+  color: rgb(143, 145, 146);
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  font-size: 0.9rem;
+}

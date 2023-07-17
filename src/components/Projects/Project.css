@@ -8,11 +8,123 @@
   font-size: 2.3rem;
 }
 
-.project__container-content {
-  /* padding: 2rem 26rem 0 26rem;
+.project__container_box {
+  padding: 2rem 20rem 0 20rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   grid-column-gap: 10rem;
-  color: rgb(211, 213, 214); */
+  color: rgb(211, 213, 214);
+}
+
+.project__container-content {
+  box-shadow: -3px -1px 26px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -3px -1px 26px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: -3px -1px 26px -1px rgba(0,0,0,0.75);
+}
+
+.project__container-content .contents {
+  padding: 0 1.3rem;
+}
+
+.project__container-content .contents h3 {
+  margin: 1rem 0;
+  letter-spacing: 0.7px;
+}
+
+.project__container-content .contents p {
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  line-height: 23px;
+}
+
+.project__container-content .contents h5 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.project__container-content .tags {
+  padding: 0 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 1rem; */
+  margin-bottom: 0.7rem;
+}
+
+.project__container-content .project__img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* media queries */
+@media screen and (max-width: 1024px) {
+  .project__container_box {
+    padding: 2rem 8rem 0 8rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    grid-column-gap: 10rem;
+    color: rgb(211, 213, 214);
+  }
+
+  .project__container h1 {
+    padding: 0 8rem;
+  }
+  .project__container-content .project__img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project__container_box {
+    padding: 2rem 8rem 0 8rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    grid-column-gap: 10rem;
+    color: rgb(211, 213, 214);
+  }
+
+  .project__container h1 {
+    padding: 0 8rem;
+    
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .project__container_box {
+    padding: 2rem 4rem 0 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    grid-column-gap: 10rem;
+    color: rgb(211, 213, 214);
+  }
+
+  .project__container h1 {
+    padding: 0 4rem;
+    
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project__container_box {
+    padding: 2rem 2rem 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    grid-column-gap: 10rem;
+    color: rgb(211, 213, 214);
+  }
+
+  .project__container h1 {
+    padding: 0 2rem;
+    
+  }
 }

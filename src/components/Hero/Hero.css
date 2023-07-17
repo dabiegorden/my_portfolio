@@ -28,6 +28,12 @@
 }
 
 /* media queries */
+@media screen and (max-width: 1024px) {
+  .hero__container {
+    padding: 3.5rem 5rem 0 5rem;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .hero__container {
     padding: 3.5rem 10rem 0 10rem;

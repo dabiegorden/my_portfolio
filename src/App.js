@@ -10,8 +10,8 @@ const App = () => {
         <Hero />
         <Project />
         <Technologies />
-        <Accomplishments />
         <TimeLine />
+        <Accomplishments />
         <Footer />
     </div>
   )

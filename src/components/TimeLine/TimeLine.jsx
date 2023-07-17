@@ -3,7 +3,12 @@ import './TimeLine.css';
 
 const TimeLine = () => {
   return (
-    <div>TimeLine</div>
+    <div className="timeLine__container">
+        <div className="timeLine__container-left">
+            <h1>About Me</h1>
+            <p>The purpose of this portfolio is to help showcase my skills<br/> to customers and potential clients and to work for big<br/> companies and any government work shop as well.</p>
+        </div>
+    </div>
   )
 }
 

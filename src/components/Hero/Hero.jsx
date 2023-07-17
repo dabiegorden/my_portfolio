@@ -4,7 +4,7 @@ import { Gradient } from '../../constants/Constants';
 
 const Hero = () => {
   return (
-    <div className="hero__container">
+    <div className="hero__container" id="home">
          <div className="hero__container-left">
               <h1>Welcome to<br/> my personal portfolio</h1>
                <p>The purpose of this portfolio is to help showcase
