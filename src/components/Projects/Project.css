@@ -1,0 +1,18 @@
+.project__container {
+  margin-top: 3rem;
+}
+
+.project__container h1 {
+  padding: 0 18rem;
+  color: rgb(208, 211, 214);
+  font-size: 2.3rem;
+}
+
+.project__container-content {
+  /* padding: 2rem 26rem 0 26rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  grid-column-gap: 10rem;
+  color: rgb(211, 213, 214); */
+}
