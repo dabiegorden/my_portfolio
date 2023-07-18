@@ -1,7 +1,7 @@
 .hero__container {
   display: flex;
   justify-content: space-between;
-  padding: 3.5rem 18rem 0 18rem;
+  padding: 10rem 18rem 0 18rem;
 }
 
 .hero__container-left h1 {
@@ -30,25 +30,25 @@
 /* media queries */
 @media screen and (max-width: 1024px) {
   .hero__container {
-    padding: 3.5rem 5rem 0 5rem;
+    padding: 10rem 5rem 0 5rem;
   }
 }
 
 @media screen and (max-width: 992px) {
   .hero__container {
-    padding: 3.5rem 10rem 0 10rem;
+    padding: 10rem 10rem 0 8rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .hero__container {
-    padding: 3.5rem 8rem 0 8rem;
+    padding: 10rem 8rem 0 5rem;
   }
 }
 
 @media screen and (max-width: 574px) {
   .hero__container {
-    padding: 3.5rem 3rem 0 3rem;
+    padding: 10rem 3rem 0 3rem;
   }
   .hero__container-left h1 {
     font-size: 1.9rem;
@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 400px) {
   .hero__container {
-    padding: 3.5rem 2rem 0 2rem;
+    padding: 9rem 2rem 0 2rem;
   }
   .hero__container-left h1 {
     font-size: 1.8rem;
@@ -92,6 +92,9 @@
 }
 
 @media screen and (max-width: 360px) {
+.hero__container {
+  padding: 8rem 2rem 0 2rem;
+}
 .hero__container-left h1 {
     font-size: 1.7rem;
   }

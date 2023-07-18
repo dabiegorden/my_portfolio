@@ -83,16 +83,16 @@
 
 @media screen and (max-width: 768px) {
   .project__container_box {
-    padding: 2rem 8rem 0 8rem;
+    padding: 2rem 6rem 0 5rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    grid-column-gap: 10rem;
+    grid-column-gap: 6rem;
     color: rgb(211, 213, 214);
   }
 
   .project__container h1 {
-    padding: 0 8rem;
+    padding: 0 5rem;
     
   }
 }

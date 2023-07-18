@@ -12,6 +12,9 @@ const Navbar = () => {
          <a href="#home" className="logo"><DiCssdeck className="icon"/> Portfolio</a>
          <ul className="navbar">
             <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
                 <a href="#projects">Projects</a>
             </li>
             <li>
@@ -33,11 +36,14 @@ const Navbar = () => {
               }
               {menu &&(
                 <div className="nav__small scale-up-center">
+                      <li>
+                          <a href="#home">Home</a>
+                      </li>
                         <li>
                               <a href="#projects">Projects</a>
                           </li>
                           <li>
-                              <a href="#teck">Technologies</a>
+                              <a href="#tech">Technologies</a>
                           </li>
                           <li>
                               <a href="#about">About</a>

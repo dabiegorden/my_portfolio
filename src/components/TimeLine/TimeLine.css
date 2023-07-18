@@ -15,9 +15,90 @@
   font-size: 0.98rem;
 }
 
+/* caurousel container styling */
 .caurosel__container {
   padding: 2rem 0 0 0;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
+}
+
+.caurousel__container-content h1 {
+  color: rgb(183, 186, 187);
+  margin-bottom: 0.3rem;
+  font-size: 1.5rem;
+}
+
+.caurousel__container-content p {
+  color: rgb(128, 129, 129);
+}
+
+
+/* media queries */
+@media screen and (max-width: 1024px) {
+  .timeLine__container {
+    padding: 4rem 7rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .timeLine__container {
+    padding: 4rem 8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .timeLine__container {
+    padding: 4rem 7rem;
+  }
+  .caurosel__container {
+    padding: 2rem 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .timeLine__container {
+    padding: 4rem 4rem;
+  }
+  .caurosel__container {
+    padding: 2rem 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .timeLine__container {
+    padding: 4rem 2rem;
+  }
+  .caurosel__container {
+    padding: 2rem 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .timeLine__container {
+    padding: 2rem 2rem;
+  }
+  .caurosel__container {
+    padding: 2rem 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .timeLine__container-left h1{
+    color: rgb(213, 215, 216);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .timeLine__container-left p {
+    color: rgb(143, 145, 146);
+    line-height: 26px;
+    letter-spacing: 0.7px;
+    font-size: 0.9rem;
+  }
 }

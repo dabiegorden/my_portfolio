@@ -45,22 +45,13 @@
   color: rgb(172, 173, 173);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries */
+@media screen and (max-width: 1024px){
+  .tech__container {
+    padding: 4rem 7rem;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .tech__container {
     padding: 3rem 8rem;
@@ -81,7 +72,7 @@
 }
 @media screen and (max-width: 768px) {
   .tech__container {
-    padding: 3rem 8rem;
+    padding: 4rem 8rem 3rem 5rem;
   }
   
   .tech__container-left .tech_line {
@@ -187,24 +178,24 @@
   .tech__container-left h5 {
     color: rgb(115, 116, 117);
     font-size: 0.8rem;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.4px;
     line-height: 26px;
   }
 
   .tech__list_items {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     color: rgb(199, 201, 202);
   }
   
   .tech__list_item h3 {
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
     color: rgb(198, 200, 201);
   }
   
   .tech__list_item .langs {
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
     color: rgb(172, 173, 173);
   }
   

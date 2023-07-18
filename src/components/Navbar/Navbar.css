@@ -7,6 +7,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  /* height: 72px; */
   z-index: 1000;
 }
 
@@ -78,7 +79,7 @@
 /* mwdia queries */
 @media screen and (max-width: 1024px) {
   .nav__container {
-    padding: 1.5rem 5rem;
+    padding: 2rem 5rem 10rem 5rem;
   }
 }
 
